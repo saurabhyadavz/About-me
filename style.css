@@ -1,0 +1,43 @@
+.banner{
+	background-image: url('back.jpg');
+
+       width:100%;
+  height:auto;
+  
+  background-size:cover;
+}
+.hello{
+	background-image: url('gif.gif');
+
+       width:100%;
+  height:30px;
+  
+  background-size:cover;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+  .navbar{
+  	background-color: black;
+  }
