@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hello World!</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Example</title>
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="jumbotron banner" style="height: 500px; padding-top: 150px; ">
-
-
-  <div class="position-absolute">
-    
-    <h1 style="font-size: 60px; text-align: left;font-family: 'Quicksand', sans-serif;"><kbd>Saurabhshadow</kbd></h1>
-  </div>
-<div class="position-relative">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
   
-  <dl style="color: white; text-align: center;font-size: 70px;font-family: 'Bahianita', cursive;">Hello World!! 👋 </dl>   
-</div>
+  <a class="navbar-brand" href="#">SAURABH</a>
 
-<div class="position-relative">
-<h3 style="font-size: 40px; text-align: right;font-family: 'Quicksand', sans-serif;"><code>Coding Enthusiast</code></h3>
-<h4 style="font-size: 35px; text-align: right;font-family: 'Quicksand', sans-serif;"><code>Undergraduate|CSE</code></h4>
-<h4 style="font-size: 30px; text-align: right;font-family: 'Quicksand', sans-serif;"><code>Student @IIITN</code></h4>
-</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
+  <ul class="navbar-nav intro">
+    <li class="nav-item active intro1" ><a href="#" class="nav-link">Introduction</a></li>
+    <li class="nav-item"><a href="Education.html" class="nav-link">Education</a></li>
+   
+  </ul>
+  <ul class="navbar-nav ml-auto">
+
+    <li class="nav-item"><a href="https://www.codechef.com/users/saurabhshadow" class="nav-link codehef"><img src="image/cheflogo.png" id="codechef" ></a></li>
+
+    <li class="nav-item"><a href="https://codeforces.com/profile/saurabhshadow" class="nav-link"><img src="image/cf.png" id="codeforces"></a></li>
+    <li class="nav-item"><a href="https://codeforces.com/profile/saurabhshadow" class="nav-link"><img src="image/git.png" id="git"></a></li>
+
+     <li class="nav-item"><a href="https://www.linkedin.com/in/saurabh-yadav-63b691174/" class="nav-link"><img src="image/linkedln.png" id="linkedin"></a></li>
+   
+  </ul>
 </div>
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://www.google.com/search?q=saurabhshadow&oq=saurabhshadow&aqs=chrome..69i57j69i60l3.2323j0j7&sourceid=chrome&ie=UTF-8">Saurabhshadow
-      </a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active" text-light><a href="Education.html">Education</a></li>
-      <li class="codechef"><a href="https://www.codechef.com/users/saurabhshadow">Codechef</a> </li>
-      <li><a href="https://codeforces.com/profile/saurabhshadow" >Codeforces</a></li>
-      <li><a href="https://github.com/saurabhshadow">Github</a></li>
-    </ul>
-  </div>
 </nav>
-  
-<div class="iframe-container">
-<iframe width="500" height="315" src="https://www.youtube.com/embed/MO3pOHxRnhY?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="image">
+
+      <img src="image/back2.jpg" alt="Responsive image" class="img-fluid"/>
+      
+      <h2><span>Hello World!!<br/>I'm Saurabh Yadav</span></h2>
+       <h3><span>. Coding Enthusiast<br/>. CSE<br/>. Undergraduate<br/>. @IIITN</span></h3>
+          
 </div>
 
 </body>
